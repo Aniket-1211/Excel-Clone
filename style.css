@@ -209,6 +209,7 @@
     width: 100px;
     height: 80%;
     border-radius: 4px;
+    outline: none;
 }
 
 .font-select{
