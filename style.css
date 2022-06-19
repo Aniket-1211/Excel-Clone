@@ -12,6 +12,7 @@
 .menu-options{
     border: 0.5px solid var(--border-color);
     height: 30px;
+    display: flex;
 }
 .address-content{
     border-bottom: 0.1px solid var(--border-color);
@@ -31,6 +32,7 @@
     border-left: 0.1px solid var(--border-color);
     border-bottom: 0.1px solid var(--border-color);
     width: 90px;
+    padding-left: 5px;
     min-height: 20px;
     outline: none;
 }
@@ -162,9 +164,73 @@
 }
 
 .active-cell{
-    border: 2px solid green;
+    border: 3px solid rgb(5, 188, 5);
+    /* border-radius: 2px; */
 }
 
 .active-row-col{
     background-color: darkgrey;
+}
+
+.other-style{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 0.1px solid var(--border-color);
+
+}
+.other-style div{
+    width: 25px;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 3px ;
+}
+
+.other-style div:hover{
+    background-color: var(--cell-background);
+    opacity: .7;
+    border-radius: 5px;
+}
+
+.text-style{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 0.1px solid var(--border-color);
+}
+
+.style-select{
+    width: 100px;
+    height: 80%;
+    border-radius: 4px;
+}
+
+.font-select{
+    width: 40px;
+    height: 80%;
+    outline: none;
+    border-radius: 4px;
+}
+
+.color{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.1px solid var(--border-color);
+}
+
+.color div{
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
